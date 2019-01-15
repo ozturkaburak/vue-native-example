@@ -1,0 +1,28 @@
+{
+  "name": "cardExample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "native-base": "^2.10.0",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "vue-native-core": "0.0.8",
+    "vue-native-helper": "0.0.9",
+    "vue-native-router": "0.0.1-alpha.3"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "4.0.1",
+    "jest": "23.6.0",
+    "react-test-renderer": "16.3.1",
+    "vue-native-scripts": "0.0.14"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
